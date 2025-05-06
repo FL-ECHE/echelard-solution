@@ -10,7 +10,8 @@ html {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+p{
+  font-size: 2rem;}
 .layout_padding2 {
   padding: 45px 0;
 }
@@ -241,6 +242,8 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
+  background-color: #000000;
+  margin-top: 30vh; 
   height: calc(100% - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -254,8 +257,7 @@ a:focus {
 }
 
 .slider_section #carouselExampleIndicators {
-  width: 100%;
-}
+  width: 100%;}
 
 .slider_section .row .col-md-10 {
   display: -webkit-box;
@@ -283,7 +285,7 @@ a:focus {
 }
 
 .slider_section .slider_heading h2 span {
-  color: #63f74f;
+  color: #ffffff;
 }
 
 .slider_section .detail-box h1 {
@@ -449,7 +451,10 @@ a:focus {
 .about_section .about_container {
   padding: 45px;
   background-image: url(../images/blapro.png);
-  background-size: cover;
+  background-size: 80vh;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .about_section .about_container .detail-box {
@@ -470,7 +475,7 @@ a:focus {
   margin: 0 auto;
   border: none;
   width: 1.5px;
-  height: 125px;
+  height: 500px;
   background-color: #ffffff;
 }
 
@@ -494,6 +499,7 @@ a:focus {
 .class_section {
   color: #ffffff;
   position: relative;
+  
 }
 
 .class_section .row > div {
@@ -574,6 +580,14 @@ a:focus {
   margin-left: 15px;
 }
 
+.class_section .class_box-container .box .img-box .detail-box p {
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 55px;
+  margin-left: 15px;
+}
 .class_section .class_box-container .box .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
