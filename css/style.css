@@ -240,11 +240,11 @@ a:focus {
 }
 
 /*end header section*/
-/* slider section */
+/* slider section  scaleX(-1); */
 .slider_section {
   background-color: #000000;
   margin-top: 30vh; 
-  height: calc(100% - 80px);
+  height: calc(100% - 200px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,18 +266,19 @@ a:focus {
 }
 
 .slider_section .slider_heading {
-  -webkit-transform: rotate(270.5deg) scaleX(-1);
-          transform: rotate(270.5deg) scaleX(-1);
+  -webkit-transform: rotate(270.5deg);
+          transform: rotate(270.5deg);
   position: absolute;
-  left: -150px;
-  top: -25px;
+  left: -50px;
+  top: 80px;
+  font-size: 10vh;
 }
 
 .slider_section .slider_heading h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 10rem;
+  font-size: 5rem;
   text-transform: uppercase;
   text-orientation: upright;
   font-weight: bold;
@@ -446,6 +447,7 @@ a:focus {
 
 .about_section .heading_container h2 {
   color: #ffffff;
+  font-size: 10rem;
 }
 
 .about_section .about_container {
@@ -502,6 +504,9 @@ a:focus {
   
 }
 
+.class_section .hdg h2 {
+  font-size: 10vh;
+}
 .class_section .row > div {
   position: unset;
 }
@@ -669,7 +674,6 @@ a:focus {
 .class_section .owl-carousel .owl-nav .owl-next:hover {
   background-image: url(../images/next-grey.png);
 }
-
 .blog_section {
   color: #ffffff;
   overflow-x: hidden;
