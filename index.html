@@ -31,6 +31,13 @@
 </head>
 
 <body>
+
+<script>
+function mediaprint() {
+  document.getElementById("media").innerHTML = "Hello World";
+}
+  
+</script>
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -205,18 +212,20 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="box">
-                  <div class="detail-box">
+                  <div class="detail-box container">
                     <h1>
                       Biochemistry
                     </h1>
                     <hr />
                     <img src="images/resinterint.png" alt="">
+                    <div class="text-block text_overimage uno "><a href="https://2019.igem.org/Team:ULaval"><p>Specialization in Synthetic and Molecular Biology</p></a></div>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="box">
-                  <div class="detail-box">
+                  <div class="detail-box container">
+                    <div class="text-block dos text_overimage"><a href="https://jamboree.igem.org/2023/home"><p>Specialization in Protein Structural Bioinformatics and Molecular Dynamics</p></a></div>
                     <h1>
                       Bioinformatics
                     </h1>
@@ -227,7 +236,8 @@
               </div>
               <div class="carousel-item">
                 <div class="box">
-                  <div class="detail-box">
+                  <div class="detail-box container">
+                    <div class="text-block tres text_overimage"><a href="https://grulab.imag.fr/"><p>Specialization in Multimodal, Graph and Language Models Architecture development for Biomolecule Interaction</p></a></div>
                     <h1>
                       Deep Learning
                     </h1>
@@ -249,9 +259,17 @@
     </div>
 
   </section>
-  <!-- class section -->
-
+  
   <section class="class_section  layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+                  <div class="additional_text">
+                    <p  id="media"></p>
+      </div>
+    </div>
+  </section>>
+  <!-- class section -->
+  <section class="class_section">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto">
@@ -276,7 +294,7 @@
                     <div class="img-box">
                       <img src="images/frogame.png" alt="">
                       <div class="detail-box">
-                        <button>
+                        <button onclick='document.getElementById("media").innerHTML="Developing 3D Platformers and 2D Strategy games with Godot"'>
                           <img src="images/play-icon.png" alt="">
                         </button>
                         <h2>
@@ -285,7 +303,7 @@
                       </div>
                     </div>
                     <div class="btn-box">
-                      <a href="">
+                      <a href="https://globalgamejam.org/games/2024/cruel-comedy-5">
                         See More
                       </a>
                     </div>
@@ -296,7 +314,7 @@
                     <div class="img-box">
                       <img src="images/bckg_des.png" alt="">
                       <div class="detail-box">
-                        <button>
+                        <button onclick='document.getElementById("media").innerHTML="Synth, Atmospheric, Orchestral, using Ableton to explore unique themes"'>
                           <img src="images/play-icon.png" alt="">
                         </button>
                         <h2>
@@ -316,7 +334,7 @@
                     <div class="img-box">
                       <img src="images/pres_ml3.png" alt="">
                       <div class="detail-box">
-                        <button>
+                        <button onclick='document.getElementById("media").innerHTML="Giving life to music and ideas using Blender for modeling, texturing, and animating"'>
                           <img src="images/play-icon.png" alt="">
                         </button>
                         <h2>
@@ -336,7 +354,7 @@
                     <div class="img-box">
                       <img src="images/bckgbrkg.png" alt="">
                       <div class="detail-box">
-                        <button>
+                        <button onclick='document.getElementById("media").innerHTML="Taking advantage of complex technologies like Geometry Nodes and Grease Pencil to bring visions to life"'>
                           <img src="images/play-icon.png" alt="">
                         </button>
                         <h2>
@@ -356,7 +374,7 @@
                     <div class="img-box">
                       <img src="images/pres-cell2.png" alt="">
                       <div class="detail-box">
-                        <button>
+                        <button onclick='document.getElementById("media").innerHTML="Cross-disciplinary concepts representation and communication by combining expertise in several domains of science"'>
                           <img src="images/play-icon.png" alt="">
                         </button>
                         <h2>
@@ -641,7 +659,7 @@
                   </a>
                 </div>
                 <p>
-                  &copy; 2025 Florian Echelard
+                  &copy; 2025 Florian Echelard (All images are original creations)
                 </p>
               </section>
               <!-- footer section -->
