@@ -6,6 +6,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.layout_padding3 {
+  padding-top: 80px;
+}
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
